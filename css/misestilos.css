@@ -42,7 +42,11 @@ body {
 .menu {
     width: 25%;
     height: 100%;
-    background: rgb(29, 28, 28); 
+    background: grey;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .nota {
@@ -58,4 +62,15 @@ body {
 
 .nota:hover {
     background: rgb(78, 90, 96);
+}
+
+.btnVinculo {
+    display: block;
+    text-decoration: none;
+    color: black !important;
+    background: rgb(61, 159, 144);
+    border-radius: 5px;
+    border-color: rgb(32, 7, 223);
+    border-width: 3px;
+    padding: 10px;
 }
